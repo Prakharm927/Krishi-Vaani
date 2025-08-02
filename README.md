@@ -7,31 +7,33 @@
 
 **Krishi Vaani** is a voice-based agri-advisory platform designed specifically for **non-literate farmers**.
 
-Built using **AI + voice tech**, it helps farmers get personalized crop advice, identify crop diseases, and discover local solutions — all through **simple voice interactions in regional languages**.
+Built using **AI + voice tech**, it helps farmers receive personalized crop advice, detect diseases, and access localized agricultural support — all through **simple voice interactions in their native language**.
 
-This project is crafted for **real-world impact**, leveraging the power of **Dwani.ai**, **Supabase**, and **FastAPI**.
+This project is crafted for **real-world impact**, leveraging **Dwani.ai**, **Supabase**, and **FastAPI** to make agriculture smarter and more inclusive.
 
 ---
 
 ## 🌟 Features
 
-- 🎙️ Voice-based crop advisory using dwani.ai  
-- 🧑‍🌾 Personalized agri tips in local languages  
-- 🔍 Voice-triggered crop disease detection (AI-powered)  
-- 🌾 Regional weather, soil, and irrigation alerts  
-- 📍 Geolocation for nearby support centers and agri-stores  
-- 📊 Easy dashboard for admin + farmer history  
-- 🛠️ Modular and scalable backend (FastAPI + Supabase)  
-- 📱 Mobile-friendly frontend (React/Next.js with v0.dev)
+- 🎙️ Voice-based crop advisory powered by Dwani.ai  
+- 🧑‍🌾 Regional language support for non-literate farmers  
+- 🔍 AI-powered voice-triggered crop disease detection  
+- 🌾 Localized weather, irrigation, and soil health alerts  
+- 📍 Geolocation for nearby help centers and agri-stores  
+- 📊 Admin dashboard with farmer interaction history  
+- 🛠️ Scalable backend architecture (FastAPI + Supabase)  
+- 📱 Mobile-friendly frontend using Next.js + v0.dev
 
 ---
 
 ## 📸 Sneak Peek 👀
 
-A quick glimpse of how Krishi Vaani empowers farmers with just their voice:
+A glimpse into how Krishi Vaani empowers farmers using voice tech:
 
-![Krishi Vaani Screenshot](<img width="1892" height="575" alt="Screenshot 2025-08-02 131818" src="https://github.com/user-attachments/assets/cf1f92b4-115d-43a8-8bd8-281cd102450e" />
-)
+![Krishi Vaani Screenshot](https://github.com/user-attachments/assets/a77a5a1d-0e53-4df9-ac16-23b871c48868)
+
+Here’s how the system is structured for practical use cases:  
+<img width="1897" height="866" alt="Screenshot 2025-08-02 133400" src="https://github.com/user-attachments/assets/1d59b8d3-7515-4647-a5fa-f46487f95b6b" />
 
 > Designed with simplicity and accessibility in mind —  
 > even users with zero digital literacy can get real-time, life-changing information.
@@ -40,23 +42,24 @@ A quick glimpse of how Krishi Vaani empowers farmers with just their voice:
 
 ## 🧩 Tech Stack
 
-- 🎧 **Voice API**: [dwani.ai](https://dwani.ai/) for multilingual speech input/output  
-- 🧠 **AI & Inference**: fal.ai / Groq for smart crop analysis  
+- 🎧 **Voice API**: [dwani.ai](https://dwani.ai/) — multilingual voice interface  
+- 🧠 **AI & Inference**: fal.ai / Groq — crop analysis and predictions  
 - 🌐 **Frontend**: Next.js (React) + v0.dev  
 - 🧪 **Backend**: FastAPI  
-- 🗃️ **Database & Auth**: Supabase (Postgres)  
-- 📦 **Media Storage**: Supabase + optional Blob  
+- 🗃️ **Database & Auth**: Supabase (PostgreSQL)  
+- 📦 **Media Storage**: Supabase + optional Blob for voice files  
 
 ---
 
 ## 🚀 Getting Started
 
-Clone the repo and start the dev server:
+Clone the repository and start the development server:
 
 ```bash
 git clone https://github.com/yourusername/krishi-vaani.git
 cd krishi-vaani
 npm install
 npm run dev
+
 
 
